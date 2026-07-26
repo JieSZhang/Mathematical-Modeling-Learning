@@ -34,7 +34,7 @@ import numpy as np
 # cols = np.array([[0,2],[0,2]])
 # y = x[rows,cols]
 # print(y)
-# #可以建筑切片或...与索引数组组合
+# #可以切片或...与索引数组组合
 # a = np.array([[1,2,3],[4,5,6],[7,8,9]])
 # b = a[1:3, 1:3]
 # c = a[1:3, [1,2]]
@@ -55,8 +55,8 @@ import numpy as np
 # a = np.array([1, 2+6j, 5, 3.5+5j])
 # print(a[np.iscomplex(a)])
 
-##花式索引
-x = np.arange(32).reshape(8,4)
-print(x[[4,2,1,7]])
-print(x[[-4,-2,-1,-7]])
-print(x[np.ix_([1,5,7,2],[0,3,1,2])])
+# #花式索引
+# x = np.arange(32).reshape(8,4)
+# print(x[[4,2,1,7]])
+# print(x[[-4,-2,-1,-7]])
+# print(x[np.ix_([1,5,7,2],[0,3,1,2])])#第一个数组进行抽取，第二个数组将每个元素内部按照特定顺序排列
