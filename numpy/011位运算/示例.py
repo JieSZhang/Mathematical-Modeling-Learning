@@ -36,8 +36,8 @@ import numpy as np
 # print(z.shape)
 # print((x + z).shape)
 # print(x + z)
-#广播提供了一种方便的方式来获取两个数组的外积
-a = np.array([0.0, 10.0, 20.0, 30.0])
-b = np.array([1.0, 2.0, 3.0])
-print(a[:, np.newaxis] + b) 
-#newaxis的作用是为a添加了一个新的轴
+# #广播提供了一种方便的方式来获取两个数组的外积
+# a = np.array([0.0, 10.0, 20.0, 30.0])
+# b = np.array([1.0, 2.0, 3.0])
+# print(a[:, np.newaxis] + b) 
+# #newaxis的作用是为a添加了一个新的轴

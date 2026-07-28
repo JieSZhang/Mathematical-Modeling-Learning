@@ -27,7 +27,7 @@ import numpy as np
 # newarr = arr.reshape(2,2,-1)
 # print(newarr)
 
-#展平数组
-arr = np.array([[1, 2, 3],[4, 5, 6]])
-newarr = arr.reshape(-1)
-print(newarr)
+# #展平数组
+# arr = np.array([[1, 2, 3],[4, 5, 6]])
+# newarr = arr.reshape(-1)
+# print(newarr)
